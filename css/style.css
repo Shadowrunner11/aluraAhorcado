@@ -1,0 +1,27 @@
+:root{
+  --sqreChar: 100px
+}
+
+
+
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  color:white;
+  background-color: #404040;
+}
+
+body{
+  display: flex;
+}
+
+
+.character{
+  font-size: var(--sqreChar);
+  text-align: center;
+  width: var(--sqreChar);
+  height: var(--sqreChar);
+  border-bottom: 1px solid rgb(96, 96, 188);
+  margin: 8px;
+}
